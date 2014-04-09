@@ -130,15 +130,148 @@
 
 \section{Galaxientypen}
 
+\subsection{Elliptische Galaxien}
+
 \begin{frame}
 \frametitle{Galaxientypen}
-\framesubtitle{Elliptische Galaxien}
+\framesubtitle{Elliptische Galaxien - Namensgebung}
+
+
+
+\begin{figure}
+\begin{minipage}[hbt]{5cm}
+	\centering
+	\includegraphics[width=5cm]{Ellipse_Exzentri.png}
+	\caption{$\epsilon = 1 - b/a$}
+\end{minipage}
+\hfill
+\begin{minipage}[hbt]{7cm}
+	\centering
+	\includegraphics[width=7cm]{Ellipse_Exzentri2.png}
+	\caption{$En = E 10\epsilon$}
+\end{minipage}
+\end{figure}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Galaxientypen}
+\framesubtitle{Elliptische Galaxien - Boxyness und Discynes}
+
+%\begin{figure}
+%\includegraphics[scale=0.4]{boxi_diski_Schema.jpg}
+%\end{figure}
+
+\begin{figure}
+\begin{minipage}[hbt]{4cm}
+	\centering
+	\includegraphics[width=3cm]{boxi_diski_Schema.jpg}
+\end{minipage}
+%
+\begin{minipage}[hbt]{4cm}
+	\includegraphics[width=3cm]{boxi_diski_Bild.jpg}
+\end{minipage}
+\end{figure}
+
+
+\begin{align*}
+a(\phi) &= \underbrace{a_0}_{Kreis} + \underbrace{a_2}_{Ellipse} \cos(2 \phi) + \underbrace{a_4}_{Korrektur} \cos(4 \phi) + \cdots
+\end{align*}
+
+\begin{itemize}
+\item boxy $\Leftrightarrow$ $a_4/a_0 < 0$ 
+\item discy $\Leftrightarrow$ $a_4/a_0 > 0$
+\end{itemize}
 
 
 \end{frame}
 
 
+\begin{frame}
+\frametitle{Galaxientypen}
+\framesubtitle{Elliptische Galaxien - verschiedene Klassen}
+
+\begin{figure}
+\includegraphics[scale=0.2]{Abell_Ellipise.jpg}
+\end{figure}
+
+\begin{itemize}
+\item breite Klasse
+\item normele Ellipsen haben $\unit[-23]{mag} < M_B < \unit[-15]{mag}$, cD Ellpisen bis $M_B \approx \unit[-15]{mag}$
+\end{itemize}
+
+\end{frame}
 
 
+\begin{frame}
+\frametitle{Galaxientypen}
+\framesubtitle{Elliptische Galaxien - Helligkeiten}
+
+\begin{figure}
+\includegraphics[scale=0.25]{Helligkeitsprofil_Ellipse.jpg}
+\end{figure}
+
+
+\begin{align*}
+&\log_{10} \left( \frac{I(R)}{I_e} \right) = - 3,3307 \cdot \left[ \left(\frac{R}{R_e} \right)^{1/4} - 1 \right] \\
+\hfill \\
+&L = 2\pi \int_0^\infty R \cdot I(R) \d R = 7,215 \cdot \pi I_e R_e^2
+\end{align*}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Galaxientypen}
+\framesubtitle{Elliptische Galaxien - Zusammensetzung}
+
+\begin{itemize}
+\item[1)] heißes Gas $\approx \unit[10^7]{K}$ \\
+\item[2)] $H_\alpha$ Emissionslinien bei $\approx \unit[10^4]{K}$
+\item[3)] kaltes Gas mit HI-Linie
+\item[4)] Metall \textbf{!ungleiche Verteilung!}
+\item[5)] Staub 
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Galaxientypen}
+\framesubtitle{Elliptische Galaxien - Kinematik}
+
+\begin{itemize}
+\item Bewegung der Staubscheibe unabhängig vom Rest
+\item ungeordnete Bewegung der Sterne
+\item Stöße spielen keine Rolle
+\end{itemize}
+
+
+\begin{align*}
+&\frac{v_{rot}}{\sigma_v} \approx \sqrt{\frac{\epsilon}{1 - \epsilon}} \qquad \text{mit} \qquad \epsilon = 1 - c/a
+\end{align*}
+
+\end{frame}
+
+
+\subsection{Spiralgalaxien}
+
+\begin{frame}
+\frametitle{Galaxientypen}
+\framesubtitle{Spiralgalaxien - Namensgebung}
+
+\begin{figure}
+\includegraphics[scale=0.25]{Spiral_Namensgebung.jpg}
+\end{figure}
+
+\begin{itemize}
+\item Gasgehalt
+\item Verhältnis Bulge/Scheibe
+\item Öffnungswinkel
+\end{itemize}
+
+
+\end{frame}
 
 \end{document}
